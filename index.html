@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>СИ разписание</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="controls">
+    <select id="mainGroup" aria-label="Група">
+      <option value="">Група</option>
+    </select>
+    <select id="englishGroup" aria-label="Английски">
+      <option value="">Английски</option>
+    </select>
+    <select id="weekSelect" aria-label="Седмица"></select>
+    <div class="weeknav">
+      <button id="prevWeekBtn" type="button" aria-label="Предишна седмица">&larr;</button>
+      <button id="todayBtn" type="button">Днес</button>
+      <button id="nextWeekBtn" type="button" aria-label="Следваща седмица">&rarr;</button>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="schedule"></div>
+</main>
+<script src="data/schedule.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
