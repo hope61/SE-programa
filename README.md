@@ -23,7 +23,7 @@ then go to `http://localhost:8765/`.
 docker compose up -d --build
 ```
 
-goes to `http://localhost:8080/`. Healthcheck is in there too so it'll
+goes to `http://localhost:47821/`. Healthcheck is in there too so it'll
 restart itself if nginx dies for some reason.
 
 ## How it's structured

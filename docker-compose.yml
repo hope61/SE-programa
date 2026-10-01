@@ -5,7 +5,7 @@ services:
     container_name: se-schedule
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "47821:80"
     healthcheck:
       test: ["CMD", "wget", "-q", "-O-", "http://127.0.0.1/"]
       interval: 30s
